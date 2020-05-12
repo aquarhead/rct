@@ -1,0 +1,10 @@
+#+TITLE: Rekt Ideas
+
+* TODO Add timeout
+currently it hangs if trying to use amqp protocol when amqps is expected
+* Subcommands for more test features
+** TODO test exchange exist
+** TODO send a message to exchange
+** TODO message roundtrip (on disposable exchange & queue)
+** TODO message roundtrip on existing exchange
+* Improve help doc, currently the requires_* docs are confusing

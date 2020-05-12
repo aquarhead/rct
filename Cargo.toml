@@ -9,7 +9,7 @@ opt-level = 3
 lto = true
 
 [dependencies]
-lapin = { version = "1.0.0-beta1", features = ["rustls"] }
+lapin = "1.0.0-beta1"
 smol = "0.1"
 anyhow = "1.0"
 log = "0.4"
